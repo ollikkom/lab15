@@ -15,10 +15,10 @@ $ open http://cppcheck.sourceforge.net
 
 ```ShellSession
 $ cpplint main.cpp
-#### Done processing main.cpp
+Done processing main.cpp
 
 $ cppcheck main.cpp
-#### Checking main.cpp...
+Checking main.cpp...
 
 $ oclint main.cpp -- -c
 

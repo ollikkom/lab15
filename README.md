@@ -1,5 +1,6 @@
 # lab15
 
+```ShellSession
 $ cpplint main.cpp
 #### Done processing main.cpp
 
@@ -9,12 +10,12 @@ $ cppcheck main.cpp
 $ oclint main.cpp -- -c
 
 
-#### OCLint Report
+OCLint Report
 
-#### Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 
+Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 
 
 
-#### [OCLint (http://oclint.org) v0.11.1]
+[OCLint (http://oclint.org) v0.11.1]
 
 $ valgrind ./main
 ==97689== Memcheck, a memory error detector
@@ -57,3 +58,4 @@ Hello, World!
 ==97689== For counts of detected and suppressed errors, rerun with: -v
 ==97689== Use --track-origins=yes to see where uninitialised values come from
 ==97689== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 4 from 4)
+```
